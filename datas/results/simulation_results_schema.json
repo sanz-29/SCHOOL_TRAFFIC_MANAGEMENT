@@ -1,0 +1,29 @@
+{
+  "simulation_engine": "SUMO",
+  "simulation_status_allowed": [
+    "not_run",
+    "completed",
+    "failed"
+  ],
+  "records": [],
+  "fields": {
+    "run_id": "string",
+    "scenario_id": "string",
+    "plan_id": "string",
+    "random_seed": "integer",
+    "network_version": "string",
+    "input_data_version": "string",
+    "simulation_engine": "string",
+    "simulation_status": "not_run|completed|failed",
+    "peak_queue_length_vehicles": "number|null",
+    "mean_waiting_time_minutes": "number|null",
+    "p95_waiting_time_minutes": "number|null",
+    "total_vehicle_delay_minutes": "number|null",
+    "spillback_duration_minutes": "number|null",
+    "idling_vehicle_minutes": "number|null",
+    "pickup_zone_capacity_violations": "integer|null",
+    "completed_vehicle_count": "integer|null",
+    "unfinished_vehicle_count": "integer|null"
+  },
+  "notice": "No SUMO simulation was executed. Null metrics are intentionally absent rather than fabricated."
+}

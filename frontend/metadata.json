@@ -1,0 +1,6 @@
+{
+  "name": "GateFlow AI",
+  "description": "School-gate traffic planning and decision-support simulation web app for staggered class timings and pickup-zone assignments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
